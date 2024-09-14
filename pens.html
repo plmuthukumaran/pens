@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h2>FILL THE DETAILS TO PLACE ORDER</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="510ee617-34cf-4de4-9dc8-100137c4ac7e">
+        
+        <div id="a">
+            <span>Name:</span>
+            <input type="text" name="first_name" required>
+        </div>
+        
+        <div id="b">
+            <span>Rollno:</span>
+            <input type="text" name="rollnumber" required>
+        </div>
+        
+        <div id="c">
+            <span>Email:</span>
+            <input type="email" name="email" required>
+        </div> 
+        
+        <div id="d">
+            <span>Product:</span>
+            <input type="text" name="product" list="input">
+            <datalist id="input">
+                <option>Apsara Pencil</option>
+                <option>Doms everyday</option>
+                <option>Hamam Soap</option>
+                <option>Lifebuoy Soap</option>
+                <option>Natraj Pencil</option>
+                <option>Rorito fasty gel</option>
+                <option>Stylish Ball Point Pen</option>
+                <option>Teen Gel</option>
+                <option>Trimax</option>
+            </datalist>
+        </div>
+        
+        <div id="e">
+            <span>Color:</span>
+            <select name="color">
+                <option>None</option>
+                <option>blue</option>
+                <option>black</option>
+            </select>
+        </div>
+        
+        <div id="f">
+            <span>Quantity:</span>
+            <select name="Quantity">
+                <option>1</option>
+                <option>2</option>
+            </select>
+        </div>
+        
+        <div id="g">
+            Cash On Delivery
+            <input type="checkbox" required>
+        </div>
+        
+        <button type="submit">ORDER</button>
+    </form>
+    
+    <div style="margin-left: 600px; margin-bottom: 2%;">
+        <h3>YOUR NEEDS WILL REACH YOUR HANDS..</h3>
+    </div>
+</body>
+</html>

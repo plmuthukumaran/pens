@@ -1,0 +1,45 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right center;
+}
+
+input {
+    width: 25%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+span {
+    width: 10%;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 6%;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #H ,#m{
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 170px;
+    width: 20%;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+#g {
+    margin-left: 80px;
+}
